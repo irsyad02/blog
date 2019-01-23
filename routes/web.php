@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('teste', 'testeController@Executar');
 Route::get('/array', 'arrayController@array');
+Route::get('/array', 'arrayController@array');
